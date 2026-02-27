@@ -52,7 +52,7 @@ resource "aws_subnet" "public-2b" {
 resource "aws_instance" "example" {
   ami           = "ami-018ff7ece22bf96db" 
   instance_type = "t2.micro"
-    tags = {
+  tags = {
     Name = "gettechie-week4-lab"
   }
 }
